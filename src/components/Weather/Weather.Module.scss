@@ -1,0 +1,96 @@
+.containerOfCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.288);
+  
+}
+.title{
+text-align: center;
+color: white;
+}
+
+.temp{
+  font-size: 2.7rem;
+  color: white;
+}
+.time{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.time .text-time{
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.623);
+}
+.infos{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.452);
+  justify-content: center;
+  gap: 50px;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin-top: 1rem;
+}
+
+.line{
+  width: 70%;
+  border: 1px solid rgba(255, 255, 255, 0.363);
+  margin: 20px auto;
+}
+
+.border-right{
+  content: "A";
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.349);
+  padding-right: 15px;
+}
+
+@media (max-width:600px) {
+
+  .infos{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.452);
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin-top: 1rem;
+}
+.border-right{
+  content: "A";
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.349);
+  padding-right: 5px;
+}
+}
+@media (min-width:600px) and (max-width:760px) {
+
+  .infos{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.452);
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin-top: 1rem;
+}
+.border-right{
+  content: "A";
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.349);
+  padding-right: 5px;
+}
+}
